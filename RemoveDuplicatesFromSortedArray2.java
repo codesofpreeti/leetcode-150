@@ -1,3 +1,7 @@
+// leetcode80
+// start checking from 3rd element actually
+// at most 2 occurances of any element
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int i=0;

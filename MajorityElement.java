@@ -1,4 +1,5 @@
 //moore's voting algorithm
+// leetcode-169
 class Solution {
     public int majorityElement(int[] nums) {
         int count=0;
