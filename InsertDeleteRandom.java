@@ -1,3 +1,5 @@
+//380 leetcode
+import java.util.*;
 class RandomizedSet {
     //declaration of ds to use
     private Map<Integer, Integer> map;
@@ -17,7 +19,6 @@ class RandomizedSet {
         l.add(val);
         map.put(val,l.size()-1);
         return true;
-        
     }
     
     public boolean remove(int val) {
@@ -29,8 +30,7 @@ class RandomizedSet {
             l.set(id, lv);
             map.put(lv,id);
         }
-        return true;
-        
+        return true; 
     }
     
     public int getRandom() {
